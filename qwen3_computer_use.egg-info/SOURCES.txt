@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+run.py
+qwen3_computer_use.egg-info/PKG-INFO
+qwen3_computer_use.egg-info/SOURCES.txt
+qwen3_computer_use.egg-info/dependency_links.txt
+qwen3_computer_use.egg-info/requires.txt
+qwen3_computer_use.egg-info/top_level.txt
